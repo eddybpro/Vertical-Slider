@@ -6,8 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vertical Slider</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <div class="slider-container">
+        <div class="left-slide">
+            <div style="background-color: grey;">
+                <h1>Cars</h1>
+                <p>Sport cars</p>
+            </div>
+            <div style="background-color: blue;">
+                <h1>Airplane</h1>
+                <p>Airplane in the sky</p>
+            </div>
+            <div style="background-color: black;">
+                <h1>Truk</h1>
+                <p>Truk on the road</p>
+            </div>
+            <div style="background-color: orchid;">
+                <h1>Rocket</h1>
+                <p>Rocket in space</p>
+            </div>
+        </div>
+        <div class="right-slide">
+            <div style="background-image: url('images/rocket.jpg');"></div>
+            <div style="background-image: url('images/truck.webp');"></div>
+            <div style="background-image: url('images/airplane.webp');"></div>
+            <div style="background-image: url('images/cars.jpeg');"></div>
+        </div>
+        <div class="action-buttons">
+            <button class="down-button">
+                <i class="fas fa-arrow-down"></i>
+            </button>
+            <button class="up-button">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
